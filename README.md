@@ -7,32 +7,8 @@ Learn how to use Git by reviewing the basic concepts of Git version control. Try
 
 [Codeschool Link](https://www.codeschool.com/courses/try-git)
 
-## Counter App
 
-[Download Link](https://www.dropbox.com/s/9m338xmbm7g2s4g/Counter-starter.zip?dl=0)
-
-For your first true iOS homework assignment at The Iron Yard, you will be building a simple counter app. It is capable of counting between 1 - 100. Simply follow the steps below and in the comments of the code and you'll have a fresh app ready to count in no time!
-
-Be sure to have Xcode installed on your Mac before you try to open this project. To open the project, look in the project folder, called *Counter*, and click on the file called **Counter.xcodeproj**. Xcode will open and load the project. Once open, click on **Main.storyboard**. See the storyboard tasks below for the steps you need to complete. Then proceed to the code steps.
-
-**NOTE:** this project as it is will not build and run in the iOS simulator. The reason is because there are several items missing from the code, and Xcode will not allow incomplete code to be built. You may notice a red icon at the top of the Xcode window with a number of errors listed. You will need to fix these errors before you can test the app, but if you follow the steps below, all the errors should disappear as you work through the checklist.
-
-Everything in our storyboard view is now properly wired up to the appropriate variables/methods in our code! When UI elements are touched by our user, the code in our view controller will be invoked.
-
-#### Code Tasks
-
-The following steps are numbered. You will find corresponding comments in the CounterViewController.swift file with the same numbers.
-
-* [ ] 1. Here you are *calling a method*. A method is a collection of instructions that are executed together. Anything listed in CounterViewController with the keyword ```func``` in front of it is a method . Read the comment and try to figure out which method we should call here (the method exists somewhere in the file).
-* [ ] 2. What variable from the top of the class should we use to update the textfield?
-* [ ] 3. What value should the slider show?
-* [ ] 4. And the stepper (detecting a pattern here)?
-* [ ] 5.  What property of sender should we use (Big hint in the comment for this one)?
-* [ ] 6. What method should we call here? 
-* [ ] 7. This looks suspiciously similar. What goes in these blanks?
-* [ ] 8. After we hide the keyboard and update the currentCount variable, what should we do?
- 
-## Install Party Links 
+## Hardware & Software 
 
 Below is a list of tasks for you to do today. 
 
@@ -59,6 +35,31 @@ You will be living in [Xcode 7](https://itunes.apple.com/us/app/xcode/id49779983
 - Install [GitHub Desktop](https://desktop.github.com)
 
 - Install the [Swift Programming Language Book](https://itunes.apple.com/us/book/swift-programming-language/id881256329?mt=11) as an electronic book. Download the iBook for your Mac or iOS device to use as reference during the class.
+
+## Counter App
+
+[Download Link](https://www.dropbox.com/s/9m338xmbm7g2s4g/Counter-starter.zip?dl=0)
+
+For your first true iOS homework assignment at The Iron Yard, you will be building a simple counter app. It is capable of counting between 1 - 100. Simply follow the steps below and in the comments of the code and you'll have a fresh app ready to count in no time!
+
+Be sure to have Xcode installed on your Mac before you try to open this project. To open the project, look in the project folder, called *Counter*, and click on the file called **Counter.xcodeproj**. Xcode will open and load the project. Once open, click on **Main.storyboard**. See the storyboard tasks below for the steps you need to complete. Then proceed to the code steps.
+
+**NOTE:** this project as it is will not build and run in the iOS simulator. The reason is because there are several items missing from the code, and Xcode will not allow incomplete code to be built. You may notice a red icon at the top of the Xcode window with a number of errors listed. You will need to fix these errors before you can test the app, but if you follow the steps below, all the errors should disappear as you work through the checklist.
+
+Everything in our storyboard view is now properly wired up to the appropriate variables/methods in our code! When UI elements are touched by our user, the code in our view controller will be invoked.
+
+#### Code Tasks
+
+The following steps are numbered. You will find corresponding comments in the CounterViewController.swift file with the same numbers.
+
+* [ ] 1. Here you are *calling a method*. A method is a collection of instructions that are executed together. Anything listed in CounterViewController with the keyword ```func``` in front of it is a method . Read the comment and try to figure out which method we should call here (the method exists somewhere in the file).
+* [ ] 2. What variable from the top of the class should we use to update the textfield?
+* [ ] 3. What value should the slider show?
+* [ ] 4. And the stepper (detecting a pattern here)?
+* [ ] 5.  What property of sender should we use (Big hint in the comment for this one)?
+* [ ] 6. What method should we call here? 
+* [ ] 7. This looks suspiciously similar. What goes in these blanks?
+* [ ] 8. After we hide the keyboard and update the currentCount variable, what should we do?
 
 ###Tasks To Do
 
